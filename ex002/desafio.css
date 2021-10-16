@@ -1,0 +1,18 @@
+body{
+    background-color: rgb(141, 141, 141);
+    text-align: center;
+    color: white;
+}
+#img{
+    text-align:center;
+}
+a:link {
+    text-decoration: none;
+    color: white;
+    
+}
+   
+a:hover {
+    text-decoration: underline;
+    color: white;
+}

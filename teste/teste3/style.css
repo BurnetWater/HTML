@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:Titulo;
+    src: url(fontes/idroid.otf);
+}
+
+body{
+    background-color: #fff4b7;
+    margin: 0px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+header{
+    min-height: 200px;
+    max-height: 280px;
+    background-image: linear-gradient(to top, #1A5C38, #3BD680);
+    color: white; 
+    margin: auto;
+    max-width: 2000px;
+}
+
+header>h1{
+    text-align: center;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.466);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    margin: 0px;
+    padding: 20px;
+}
+
+#subtítulo{
+    text-align: center;
+    font-size: 18px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+   margin: 60px 0px 0px 0px; 
+   padding: 5px;
+}
+
+nav a{
+    color: white;
+    font-size: 18px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    background-color: rgb(0, 151, 76);
+    border-radius: 5px;
+}
+
+.ex{
+    background-color: #aaf5cc;
+    text-decoration: none;
+    color: rgb(0, 80, 25);
+    font-weight: bold;
+}
+
+.ex::after{
+    content: '🔗';
+}
+
+main{
+    min-width: 400px;
+    max-width: 960px;
+    background-color: white;
+    padding: 30px 30px 60px 30px; 
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0px 0px 30px 30px;
+}
+
+b{
+    color: rgb(0, 80, 25);
+}
+
+p{
+    text-indent: 15px;
+    padding: 10px;
+}
+
+#titulo{
+    font-family: Titulo;
+    font-weight: normal;
+    font-style: normal;
+    color: green;
+    font-size: 35px;
+}
+
+.titulo{
+    font-family: Titulo;
+    font-weight: normal;
+    font-style: normal;
+    background-image: linear-gradient(to right, rgb(198, 255, 198), white);
+    color: rgb(4, 105, 0);
+}
+
+img{
+    display: block;   
+    margin-left: auto;
+    margin-right: auto;
+    margin: 30px auto;
+    width: 100%;
+}
+
+#curiosidade{
+    background-color: #c5ebd6ff;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    padding: 0px 0px 20px 0px;
+}
+
+#curiosidade>h3{
+    background-color: #2fa866ff;
+    border-radius:15px 15px 0px 0px ;
+    padding: 10px;
+    color: white;
+}
+
+ul{
+    list-style-type: '\2714\0020\0020';
+    columns: 2;
+    list-style-position: inside;
+}
+
+footer{
+    text-align: center;
+    background-color:#1a5c38ff;
+    max-width: 2000px;
+    margin: auto;
+    padding: 5px;
+    color: white;
+}
